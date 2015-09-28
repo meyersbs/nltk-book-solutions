@@ -61,4 +61,24 @@
 
 (21) Write the slice expression that extracts the last two words of ``` text2 ```.
 
-(22) 
+(22) Find all the four-letter words in the Chat Corpus ( ``` text5 ```). With the help of a frequency distribution (``` FreqDist ```), show these words in decreasing order of frequency.
+
+(23) Review the discussion of looping with conditions in [Section 4](http://www.nltk.org/book/ch01.html#sec-making-decisions). Use a combination of for and if statements to loop over the words of the movie script for Monty Python and the Holy Grail (``` text6 ```) and print all the uppercase words, one per line.
+
+(24) Write expressions for finding all words in ``` text6 ``` that meet the conditions listed below. The result should be in the form of a list of words: ``` ['word1', 'word2', ...] ```.
+* Ending in <i>ize</i>
+* Containing the letter <i>z</i>
+* Containing the sequence of letters <i>pt</i>
+* Having all lowercase letters except for an initial capital (i.e., <i>titlecase</i>)
+
+(25) Define sent to be the list of words ``` ['she', 'sells', 'sea', 'shells', 'by', 'the', 'sea', 'shore'] ```. Now write code to perform the following tasks:
+* Print all words beginning with <i>sh</i>
+* Print all words longer than four characters
+
+(26) What does the following Python code do? ``` sum(len(w) for w in text1) ``` Can you use it to work out the average word length of a text?
+
+(27) Define a function called ``` vocab_size(text) ``` that has a single parameter for the text, and which returns the vocabulary size of the text.
+
+(28) Define a function ``` percent(word, text) ``` that calculates how often a given word occurs in a text, and expresses the result as a percentage.
+
+(29) We have been using sets to store vocabularies. Try the following Python expression: ``` set(sent3) < set(text1) ```. Experiment with this using different arguments to ``` set() ```. What does it do? Can you think of a practical application for this?
